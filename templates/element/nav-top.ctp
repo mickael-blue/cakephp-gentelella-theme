@@ -1,10 +1,10 @@
 <?php
 $file = '';
 if($this->plugin){
-    $file = ROOT . DS . 'plugins'.DS.$this->plugin.DS.'src' . DS . 'Template' . DS . 'Element' . DS . 'nav-top.ctp';
+    $file = ROOT . DS . 'plugins'.DS.$this->plugin.DS.'templates' . DS . 'Element' . DS . 'nav-top.ctp';
 }
 if(!file_exists($file)){
-    $file = ROOT . DS . 'src' . DS . 'Template' . DS . 'Element' . DS . 'nav-top.ctp';
+    $file = ROOT . DS . 'templates' . DS . 'Element' . DS . 'nav-top.ctp';
 }
 
 if (file_exists($file)) {

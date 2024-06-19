@@ -1,9 +1,9 @@
 {
-  "name": "backstageel/cakephp-gentelella-theme",
-  "description": "CakePHP 3.x Gentelella Theme.",
+  "name": "mickael-blue/cakephp-gentelella-theme",
+  "description": "CakePHP 4.x Gentelella Theme.",
   "type": "cakephp-plugin",
   "keywords": ["cakephp", "templates", "plugin"],
-  "homepage": "https://github.com/backstageel/cakephp-gentelella-theme",
+  "homepage": "https://github.com/mickael-blue/cakephp-gentelella-theme",
   "license": "MIT",
   "authors": [
     {
@@ -14,9 +14,9 @@
     }
   ],
   "require": {
-    "php": ">=5.4.16",
-    "cakephp/cakephp": "~3.0",
-    "friendsofcake/bootstrap-ui":"@stable"
+    "php": ">=8.1",
+    "cakephp/cakephp": "~5.0",
+    "friendsofcake/bootstrap-ui":"^5.0"
   },
   "require-dev": {
     "phpunit/phpunit": "*"
@@ -27,8 +27,8 @@
     }
   },
   "support": {
-    "issues": "https://github.com/maiconpinto/cakephp-gentelella-theme/issues",
-    "source": "https://github.com/maiconpinto/cakephp-gentelella-theme"
+    "issues": "https://github.com/backstageel/cakephp-gentelella-theme/issues",
+    "source": "https://github.com/backstageel/cakephp-gentelella-theme"
   }
 }
 

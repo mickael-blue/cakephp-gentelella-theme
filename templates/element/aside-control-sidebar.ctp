@@ -1,10 +1,10 @@
 <?php
 $file = '';
 if($this->plugin){
-    $file = ROOT . DS . 'plugins'.DS.$this->plugin.DS.'src' . DS . 'Template' . DS . 'Element' . DS . 'aside-control-sidebar.ctp';
+    $file = ROOT . DS . 'plugins'.DS.$this->plugin.DS.'templates' . DS . 'Element' . DS . 'aside-control-sidebar.ctp';
 }
 if(!file_exists($file)){
-    $file = ROOT . DS . 'src' . DS . 'Template' . DS . 'Element' . DS . 'aside-control-sidebar.ctp';
+    $file = ROOT . DS . 'templates' . DS . 'Element' . DS . 'aside-control-sidebar.ctp';
 }
 if (file_exists($file)) {
     ob_start();
